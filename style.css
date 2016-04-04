@@ -6,6 +6,13 @@ body {
   margin: 0;
 
   font-family: Roboto, "Noto Sans", "Noto Sans CJK SC", "Source Han Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+body.hidden {
+  opacity: 0;
 }
 
 a {
